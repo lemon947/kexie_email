@@ -1,0 +1,13 @@
+#selectionTools {gap:6px;align-items:center;max-width:calc(100vw - 16px);padding:7px 9px;box-shadow:0 5px 20px #0003;border-radius:7px}
+#selectionTools [hidden]{display:none!important}
+#selectionTools label{display:flex;align-items:center;gap:5px;white-space:nowrap;color:white;font-size:12px;margin:0;padding:0;line-height:32px;height:32px}
+#selectionTools input[type=color]{width:25px;height:25px;padding:0;border:0;background:none;cursor:pointer}
+#selectionTools select{width:66px;background:#343943;border:1px solid #666;color:white;border-radius:4px;padding:4px;font-size:12px}
+#selectionTools .tool-divider{height:20px;border-left:1px solid #666;margin:0 3px}
+#selectionItalic[aria-pressed=true]{background:#635bdf}
+.article h4.editable{color:#222}
+#selectionTools{display:flex;flex-flow:row nowrap;align-items:center}
+#selectionTools button,#selectionTools select{display:inline-flex;align-items:center;justify-content:center;margin:0;height:32px;line-height:normal;box-sizing:border-box;vertical-align:middle;white-space:nowrap}
+#selectionTools input[type=color]{display:block;margin:0;flex:none}
+.mail a.selected-mail-link{outline:1px solid #9298a3;outline-offset:2px;border-radius:2px;background:#fff9df;box-decoration-break:clone;-webkit-box-decoration-break:clone}
+.overlay.preview .mail a.selected-mail-link{outline:none;background:transparent}
